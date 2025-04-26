@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db_name = "crud_warga";
+$db_name = "wargadb";
 
 $conn = new mysqli($host, $user, $pass);
 if ($conn->connect_error) die("Koneksi gagal!");
